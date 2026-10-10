@@ -9,10 +9,11 @@ import Cart from "./screens/login/cart/Cart"
 import Users from "./screens/home/users/Users"
 import Comments from "./screens/comments/Comments"
 import Single from "./screens/single/Single"
-//import Recipes from "./screens/recipes/Recipes"
-import AddUsers from "./screens/users/AddUsers";
+import Recipes from "./screens/recipes/Recipes"
+import AddUsers from "./screens/users/AddUsers"
 import Product from "./screens/product/Product"
 import Addrecipe from "./screens/addrecipe/Addrecipe"
+import Posts from "./screens/Posts"
 function App(){
   return(
     <BrowserRouter>
@@ -27,11 +28,12 @@ function App(){
     <Route path ="users" element ={<Users/>}/>
     <Route path ="comments" element ={<Comments/>}/>
     <Route path ="single" element ={<Single/>}/>
-    {/* <Route path ="recipes" element ={<Recipes/>}/> */}
+    <Route path ="recipes" element ={<Recipes/>}/>
     <Route path ="AddUsers" element ={<AddUsers/>}/>
 
     <Route path ="Product" element ={<Product/>}/>
     <Route path ="Addrecipe" element ={<Addrecipe/>}/>
+    <Route path ="Posts" element ={<Posts/>}/>
     </Routes>
     </BrowserRouter>
   );
