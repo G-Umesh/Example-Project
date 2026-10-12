@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-
+import "./AddUser.css";
 
 
 function AddUsers(){
@@ -21,7 +21,7 @@ function AddUsers(){
     }
 
     return(
-<div>
+<div className="mainform-section">
     <h1>Add Users</h1>
 
         <div className="form-section">
