@@ -12,7 +12,7 @@ function Addrecipe(){
             fetch ('https://dummyjson.com/recipes/add',{
 
             method :"POST",
-            header :{'ContentType' :"application/json"},
+            headers :{'ContentType' :"application/json"},
             body : JSON.stringify ({
                 name  : Addrecipe
             })
