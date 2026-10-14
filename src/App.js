@@ -23,6 +23,10 @@ import Image from "./screens/image/Image"
 import DynamicImage from "./screens/dynamicimage/DynamicImage"
 import Mock from "./screens/mock/Mock"
 import WebBook from "./screens/webbook/WebBook"
+import Totp from "./screens/totp/Totp"
+import Register from "./screens/register/Register"
+import AddProduct from "./screens/addproduct/AddProduct"
+
 function App(){
   return(
     <BrowserRouter>
@@ -51,7 +55,11 @@ function App(){
     <Route path ="DynamicImage" element ={<DynamicImage/>}/>
     <Route path ="Mock" element ={<Mock/>}/>
     <Route path ="WebBook" element = {<WebBook/>}/>
-    </Routes>
+    <Route path ="Login" element  = {<Login/>}/>
+    <Route path ="Totp" element ={<Totp/>}/>
+    <Route path ="Register" element ={<Register/>}/>
+    <Route path ="AddProduct" element = {<AddProduct/>}/>
+    </Routes> 
     </BrowserRouter>
   );
   

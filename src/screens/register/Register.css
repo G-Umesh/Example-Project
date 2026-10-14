@@ -1,0 +1,104 @@
+*{
+    box-sizing : border-box;
+}
+
+.form-container{
+    min-height : 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f5f9;    
+    padding: 20px;
+}
+
+.register-form {
+    width:100%;
+    max-width:400px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba (0 ,0 ,0 , 0.08);
+}
+
+.register-form h2{
+    text-align: center;
+    color: #172554;
+    margin-bottom: 8px;
+
+}
+
+.register-form p{
+    text-align: center;
+    color:#64748b;
+    margin-bottom: 25%;
+
+}
+
+
+
+.register-form label {
+  display: block;
+  margin-bottom: 6px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.register-form input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.register-form button:hover {
+  background: #1d4ed8;
+}
+
+.addproduct-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(65, 105, 160, 0.35),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 85% 80%,
+            rgba(218, 185, 105, 0.18),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #07111f 0%,
+            #142b45 45%,
+            #080d17 100%
+        );
+
+    font-family: "Segoe UI", Arial, sans-serif;
+}
