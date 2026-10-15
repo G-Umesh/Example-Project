@@ -1,0 +1,114 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+background-image:
+  linear-gradient(
+    rgba(35, 18, 8, 0.35),
+    rgba(35, 18, 8, 0.55)
+  ),
+  url("../../assets/bakery.png/Rustic\ Bakery\ Bounty\ in\ Warm\ Golden\ Light.png");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.bakeryshop-form {
+  width: 100%;
+max-width: 430px;
+padding: 35px;
+border-radius: 18px;
+
+background: rgba(255, 248, 239, 0.94);
+backdrop-filter: blur(8px);
+
+border: 1px solid rgba(255, 255, 255, 0.5);
+box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.bakeryshop-form h1 {
+text-align: center;
+color: #7c2d12;
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+.bakeryshop-form p {
+text-align: center;
+color: #92400e;
+margin-bottom: 28px;
+}
+
+.bakeryshop-form label {
+display: block;
+color: #4a2818;
+font-weight: 600;
+margin-bottom: 8px;
+}
+
+.bakeryshop-form input,
+.bakeryshop-form select {
+width: 100%;
+padding: 13px;
+margin-bottom: 20px;
+
+border: 1px solid #d6b99d;
+border-radius: 8px;
+background: #fffdf9;
+
+font-size: 15px;
+outline: none;
+transition: 0.3s;
+}
+
+.bakeryshop-form input:focus,
+.bakeryshop-form select:focus {
+border-color: #b45309;
+box-shadow: 0 0 0 3px rgba(180, 83, 9, 0.12);
+}
+
+.bakeryshop-form button {
+width: 100%;
+padding: 14px;
+
+background: linear-gradient(135deg, #b45309, #7c2d12);
+color: white;
+
+border: none;
+border-radius: 8px;
+
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bakeryshop-form button:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 15px rgba(124, 45, 18, 0.3);
+}
+
+@media (max-width: 480px) {
+.bakeryshop-container {
+padding: 20px 14px;
+background-attachment: scroll;
+}
+
+.bakeryshop-form {
+padding: 25px 20px;
+}
+
+.bakeryshop-form h1 {
+font-size: 27px;
+}
+}

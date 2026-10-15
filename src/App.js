@@ -26,6 +26,7 @@ import WebBook from "./screens/webbook/WebBook"
 import Totp from "./screens/totp/Totp"
 import Register from "./screens/register/Register"
 import AddProduct from "./screens/addproduct/AddProduct"
+import BakeryShop from "./screens/bakeryshop/BakeryShop"
 
 function App(){
   return(
@@ -59,6 +60,7 @@ function App(){
     <Route path ="Totp" element ={<Totp/>}/>
     <Route path ="Register" element ={<Register/>}/>
     <Route path ="AddProduct" element = {<AddProduct/>}/>
+    <Route path ="BakeryShop" element = {<BakeryShop/>}/>
     </Routes> 
     </BrowserRouter>
   );
